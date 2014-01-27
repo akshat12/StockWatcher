@@ -2,7 +2,7 @@ package com.google.gwt.sample.stockwatch.client;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 
-// Pretend to change stuff - will this be a conflict?
+// This is an entirely different line now. 
 
 public interface StockServiceAsync {
   public void addStock(String symbol, AsyncCallback<Void> async);
