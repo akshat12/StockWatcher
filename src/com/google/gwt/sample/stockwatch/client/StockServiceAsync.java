@@ -2,7 +2,7 @@ package com.google.gwt.sample.stockwatch.client;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 
-// Pretend to change stuff
+// Pretend to change stuff - will this create a conflict?
 
 public interface StockServiceAsync {
   public void addStock(String symbol, AsyncCallback<Void> async);
