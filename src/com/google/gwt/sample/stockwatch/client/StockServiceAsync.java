@@ -8,6 +8,5 @@ public interface StockServiceAsync {
   public void addStock(String symbol, AsyncCallback<Void> async);
   public void removeStock(String symbol, AsyncCallback<Void> async);
   
-// Changing stuff
   public void getStocks(AsyncCallback<String[]> async);
 }
