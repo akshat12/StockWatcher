@@ -8,5 +8,6 @@ public interface StockServiceAsync {
   public void addStock(String symbol, AsyncCallback<Void> async);
   public void removeStock(String symbol, AsyncCallback<Void> async);
   
+// Changing stuff here trying to create a conflict - does this work??
   public void getStocks(AsyncCallback<String[]> async);
 }
